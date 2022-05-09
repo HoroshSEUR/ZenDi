@@ -1,0 +1,216 @@
+@import url('fonts/BebasNeue.ttf');
+@import url('fonts/Roboto.tff');
+body {
+    margin: 0;
+}
+
+.ul {
+    text-shadow: white 0px 0px 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f44336;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+}
+
+.li {
+    float: left;
+}
+
+.li a {
+    text-shadow: white 0px 0px 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #f44336;
+    transition: background-color 0.5s;
+}
+
+.li a:hover {
+    text-shadow: white 0px 0px 16px;
+    background-color: #db3a2f;
+    transition: background-color 0.5s;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+header {
+    text-shadow: white 0px 0px 16px;
+    background-color: #f44336;
+    color: white;
+    padding-top: 145px;
+    padding-bottom: 200px;
+}
+
+.button {       
+    color: white;
+    background: linear-gradient(#de4545ee, #911111, #000, #911111, #000);
+    background-size: 200% 200%;
+    border-radius: 50px;
+    animation: test 8s ease infinite, slide 0.8s;
+    text-shadow: white 0px 0px 16px;
+    background-color: #D87965;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+}
+
+@keyframes test {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+.pricing .pricing-option {color: #acacac!important;}
+.modlist li {color: #b5b5b5!important;}
+section .section-subheading {color: #ccc!important;margin-top: 10px;}
+.section-heading {color:white!important;}
+.service-heading {color:#b5b5b5!important;}
+#services p {color: #c6c6c6!important;}
+section h2.section-heading {
+	margin-bottom: 10px;
+}
+
+.button1 {border-radius: 24px;}
+
+.button:hover {
+    text-shadow: black 1px 1px 16px;
+   color: white;
+    background: linear-gradient(#de4545ee, #911111, #000, #911111, #000);
+    background-size: 200% 200%;
+    border-radius: 50px;
+    animation: test 8s ease infinite, slide 0.8s;    
+}
+
+.button:active {
+    background-color: rgb(255, 104, 104);
+}
+
+h1 {
+    font-size: 96px;
+    margin: 0;
+    font-family: 'BebasNeue', sans-serif;
+    transition: font-size 0.5s;
+}
+
+h2 {
+    font-size: 34px;
+    margin: 0;
+    font-family: 'BebasNeue', sans-serif;
+    transition: font-size 0.5s;
+    color: red;
+}
+
+h3 {
+    font-size: 37px;
+    margin: 0;
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+    transition: font-size 0.5s;
+}
+
+h1:hover {
+    font-size: 98px;
+}
+
+h2:hover {
+    font-size: 98px;
+}
+
+h3:hover {
+    font-size: 38px;
+}
+
+.secret:hover {
+    color: rgb(255, 103, 103);
+}
+
+.macro {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 450px;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(255, 62, 62);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.macrocontent {
+    margin-top: 4px;
+}
+
+.numinput {
+    width: 50px;
+}
+
+.ul-right {
+    margin-top: -130px;
+    margin-left: 550px;
+}
+
+.li-a:hover {
+    font-size: 17px;
+    transition: font-size 0.5s;
+}
+
+.li-a {
+    transition: font-size 0.5s;
+}
+
+.features {
+    margin-top: 275px;
+    margin-bottom: -5px;
+    margin-left: 450px;
+}
+
+.features-img {
+    margin-top: -215px;
+    margin-left: 1300px;
+    margin-bottom: 500px;
+    width: 270px;
+    transition: width 0.5s;
+}
+
+.features-img:hover {
+    width: 280px;
+    transition: width 0.5s;
+}
+
+#add {
+    position: fixed;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+#output {
+    margin-left: 75px;
+}
+
+.opt {
+    margin-left: 50px;
+}
