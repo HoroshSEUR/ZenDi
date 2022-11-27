@@ -1,2 +1,0 @@
-# SeuriemClient.github.io
-SEUR
