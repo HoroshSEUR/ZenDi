@@ -1,0 +1,91 @@
+<div class="item">
+	<div class="server">
+		<a class="server-category-card monitor">
+    <div class="server-category-card__name" id="server-name-2">
+        ███►| FANTASY MULTIMOD|◄███[CSBORN.RU]
+    </div>
+
+    <div class="server-category-card__infos">
+        <div data-v-7a018aad="" class="info-item">
+            <div data-v-7a018aad="" class="info-item__title">
+                Игроков на сервере:
+            </div>
+            <div data-v-7a018aad="" onclick="get_players(2);" data-toggle="modal" data-target="#server-players-modal2" class="info-item__value">
+                14/35
+            </div>
+        </div>
+
+        <div data-v-7a018aad="" class="info-item">
+            <div data-v-7a018aad="" class="info-item__title">
+                IP адрес:
+            </div>
+            <div data-v-7a018aad="" id="server-ip-2" class="info-item__value">
+                46.174.55.219:20190
+            </div>
+        </div>
+
+        <div data-v-7a018aad="" class="info-item">
+            <div data-v-7a018aad="" class="info-item__title">
+                Карта:
+            </div>
+            <div data-v-7a018aad="" id="server-map-2" class="info-item__value">
+                nozoom_lego
+            </div>
+        </div>
+    </div>
+
+    <div style="display: none;" class="online">
+        <div id="online_gr-0" class="online2" style="width:NaN%"></div>
+        <div class="value" id="server-players-0"></div>
+    </div>
+
+    <div class="server-category-card__bg-container">
+        <img class="server-category-card__bg" ondrag="return false" ondragstart="return false" id="server-map-image-0" src="..//files/maps_imgs/none.jpg">
+    </div>
+</a>
+
+			<div style="display: none;" id="server-players-modal2" class="modals">
+    <div class="modals__wrap">
+        <div class="modal pay-in-modal">
+            <div class="modal-card">
+                <div class="modal-header">
+                    <button id="2" onclick="close_modal(2)" class="modal__close">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" fill-rule="evenodd" width="17" height="17" class="app-icon modal__close-icon"><g fill="currentColor" lang="en" id="close"><path d="M2.6.45L9 6.84l6.4-6.4a1.53 1.53 0 1 1 2.15 2.17L11.16 9l6.4 6.4a1.53 1.53 0 1 1-2.17 2.15L9 11.16l-6.4 6.4a1.53 1.53 0 1 1-2.15-2.17L6.84 9 .44 2.6A1.53 1.53 0 1 1 2.61.45z"></path></g></svg>
+                    </button>
+                    <h5 class="modal-title pay-in__title mb-2">Информация о сервере</h5>
+                </div>
+
+                <div class="modal-body" id="server-players-modal2">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th class="text-center">Игрок</th>
+                                <th class="text-center">Очки</th>
+                                <th class="text-center">Время игры</th>
+								                            </tr>
+                        </thead>
+
+                         <tbody id="server-players2">
+                            <tr>
+                                <td colspan="10">
+                                    <div class="loader"></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button type="submit" class="pay-in__btn-1 app-btn app-btn_theme_first" onclick="document.location = 'steam://connect/46.174.55.219:20190'">
+                        <div class="app-btn__content">Играть</div>
+                    </button>
+                </div>
+            </div>     
+        </div>
+    </div>
+</div>
+
+		<div class="progress">
+			<div class="progress-bar bg-success" role="progressbar" style="width: 40%"></div>
+		</div>
+	</div>
+</div>
